@@ -1,0 +1,16 @@
+{
+  "name": "teste-contrato-cypress-ajv",
+  "version": "1.0.0",
+  "description": "Este projeto foi desenvolvido durante o vídeo \"Cypress: Teste de contrato com JSON Schema usando o Ajv (Another JSON Validator)\", feito por Rodrigo Matola. O vídeo pode ser acessado em https://youtu.be/ZBy5ijQakbU. Durante este projeto, utilizei uma máquina com Windows 11, e todas as instalações/execuções foram feitas com o WSL 2, permitindo utilizar o Ubuntu 22.04 no próprio Windows.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^8.12.0",
+    "cypress": "^12.16.0"
+  }
+}
